@@ -1,7 +1,7 @@
 import gspread
 import time
-
-sa = gspread.service_account(filename=r"C:\Users\Angel\Downloads\bionic-medley-428717-m7-0c4210d09c81.json")
+filename = "//file"
+sa = gspread.service_account(filename)
 sh = sa.open("Botpress Appointments")
 
 
